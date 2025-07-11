@@ -1,0 +1,703 @@
+*
+{
+    margin:0px;
+    padding:0px;
+    font-family: "Oswald", sans-serif;
+    scroll-behavior: smooth;
+}
+html,body
+{
+    height: 100%;
+    cursor: url('https://cur.cursors-4u.net/cursors/cur-2/cur116.cur'), auto;
+}
+#background
+{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-image: url(fhgm75t6edn61.jpg.webp);
+    background-size: cover;
+    filter: blur(3px);
+    z-index: -1;
+}
+#HOME
+{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content:center; */
+    align-items: center;
+
+}
+#ph
+{
+    height: 50%;
+}
+#HOME #ph img
+{
+   height: 100%;
+}
+#ham
+{
+    position: fixed;
+    height: 7%;
+    width: 4%;
+    top: 0.5rem;
+    left: 0.5rem;
+}
+#ham label i
+{
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 5px black;
+    transition: transform 0.7s linear 0s;
+}
+#ham label:hover i
+{
+    cursor: pointer;
+    text-shadow: 2px 2px 8px rgb(106, 102, 102);
+    transform: scale(1.2);
+}
+#ham input
+{
+    position: absolute;
+    left: -20rem;
+}
+#menu
+{
+    position:fixed;
+    height: 100%;
+    width:20rem;
+    top:0rem;
+    font-size: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(81, 79, 79, 0.788);
+    border-radius: 0px 150px 150px 0px;
+    left:-30rem;
+    transition: 0.6s linear 0s;
+    box-shadow: 2px 2px 12px white;
+    overflow: hidden;
+    z-index: 1;
+}
+#LOGO
+{
+    width:100%;
+    padding-left: 0.7rem;
+}
+#LOGO img
+{
+    width: 90%;
+    transition: 0.5s ease-out 0s;
+}
+#LOGO img:hover
+{
+    transform: scale(1.05);
+}
+.in input
+{
+    position: absolute;
+    left:-3rem;
+}
+.in label
+{
+    padding-left: 1rem;
+    display: block;
+}
+.in
+{
+    padding:0.6rem;
+    transition: 0.3s ease-in 0s;
+}
+#check:checked ~ #menu
+{
+    left:0rem;
+    border-radius:0px;
+}
+#check,input[type="radio"]
+{
+    position: fixed;
+    left:-30rem;
+}
+#check:checked ~ #ham i
+{
+    transform: translate(20rem) rotate(180deg);
+}
+.in:hover
+{
+    box-shadow: 1px 1px 10px white;
+    background-color: rgba(255, 255, 255, 0.525);
+    text-shadow: 0px 0px 1px black;
+    transform:  translate(2rem) scale(1.1);
+}
+.in:active
+{
+    box-shadow: 1px 1px 10px white;
+    background-color: rgba(87, 82, 82, 0.654);
+    text-shadow: 0px 0px 1px black;
+    transform:  translate(2rem) scale(1.1);
+}
+#FireTyp
+{
+    color:red;
+}
+#WaterTyp
+{
+    color:rgb(22, 22, 243);
+}
+#ElectricTyp
+{
+    color:rgb(220, 220, 10);
+}
+#GrassTyp
+{
+    color:rgb(7, 182, 7);
+}
+#PsychicTyp
+{
+    color:#975ee2;
+}
+#social
+{
+    align-self: center;
+    position:absolute;
+    bottom: 1.5vh;
+}
+#social a i
+{
+    color: rgba(0, 0, 0, 0.569);
+    transition: 0.4s ease 0s;
+}
+#social a:hover i
+{
+    text-shadow: 1px 1px 1px black;
+    transform:scale(1.3);
+    color: black;
+}
+/* TEMPORARY  */
+#HOME
+{
+    display: none;
+}
+*
+{
+    margin:0px;
+    padding:0px;
+    font-family: "Oswald", sans-serif;
+}
+html,body
+{
+    height: 100%;
+    cursor: url('https://cur.cursors-4u.net/cursors/cur-2/cur116.cur'), auto;
+}
+#background
+{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-image: url(fhgm75t6edn61.jpg.webp);
+    background-size: cover;
+    filter: blur(3px);
+    z-index: -1;
+}
+#HOME
+{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content:center; */
+    align-items: center;
+
+}
+#ph
+{
+    height: 50%;
+}
+#HOME #ph img
+{
+   height: 100%;
+}
+#ham
+{
+    position: fixed;
+    height: 7%;
+    width: 4%;
+    top: 0.5rem;
+    left: 0.5rem;
+}
+#ham label i
+{
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 5px black;
+    transition: transform 0.6s ease-in 0s;
+}
+#ham label:hover i
+{
+    cursor: pointer;
+    text-shadow: 2px 2px 8px rgb(106, 102, 102);
+    transform: scale(1.2);
+}
+#ham input
+{
+    position: absolute;
+    left: -20rem;
+}
+#menu
+{
+    position:fixed;
+    height: 100%;
+    width:20rem;
+    top:0rem;
+    font-size: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(81, 79, 79, 0.788);
+    border-radius: 0px 150px 150px 0px;
+    left:-30rem;
+    transition: 0.6s linear 0s;
+    box-shadow: 2px 2px 12px white;
+    overflow: hidden;
+    z-index: 1;
+}
+#LOGO
+{
+    width:100%;
+    padding-left: 0.7rem;
+}
+#LOGO img
+{
+    width: 90%;
+    transition: 0.5s ease-out 0s;
+}
+#LOGO img:hover
+{
+    transform: scale(1.05);
+}
+.in input
+{
+    position: absolute;
+    left:-3rem;
+}
+.in label
+{
+    padding-left: 1rem;
+    display: block;
+}
+.in
+{
+    padding:0.6rem;
+    transition: 0.3s ease-in 0s;
+}
+#check:checked ~ #menu
+{
+    left:0rem;
+    border-radius:0px;
+}
+#check,input[type="radio"]
+{
+    position: fixed;
+    left:-30rem;
+}
+#check:checked ~ #ham i
+{
+    transform: translate(20rem) rotate(180deg);
+}
+.in:hover
+{
+    box-shadow: 1px 1px 10px white;
+    background-color: rgba(255, 255, 255, 0.525);
+    text-shadow: 0px 0px 1px black;
+    transform:  translate(2rem) scale(1.1);
+}
+.in:active
+{
+    box-shadow: 1px 1px 10px white;
+    background-color: rgba(87, 82, 82, 0.654);
+    text-shadow: 0px 0px 1px black;
+    transform:  translate(2rem) scale(1.1);
+}
+#FireTyp
+{
+    color:red;
+}
+#WaterTyp
+{
+    color:rgb(22, 22, 243);
+}
+#ElectricTyp
+{
+    color:rgb(220, 220, 10);
+}
+#GrassTyp
+{
+    color:rgb(7, 182, 7);
+}
+#PsychicTyp
+{
+    color:#975ee2;
+}
+#social
+{
+    align-self: center;
+    position:absolute;
+    bottom: 1.5vh;
+}
+#social a i
+{
+    color: rgba(0, 0, 0, 0.569);
+    transition: 0.4s ease 0s;
+}
+#social a:hover i
+{
+    text-shadow: 1px 1px 1px black;
+    transform:scale(1.3);
+    color: black;
+}
+/* TEMPORARY  */
+#HOME
+{
+    display: none;
+}
+.container
+{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 5rem;
+    align-items: center;
+    padding-top:3.2rem;
+    display: none;
+}
+.box
+{
+    background-color: white;
+    flex-basis: 22rem;
+    height: 20rem;
+    border-radius: 20px;
+    box-shadow: 3px 3px 8px black;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    transition: 1s ease 0.3s;
+    justify-content: flex-end;
+}
+.box img
+{
+    position: absolute;
+    height: 100%;
+    top:0px;
+    left: 2.5rem;
+    transition: 1s ease 0.3s;
+}
+.box p
+{
+    background-color: rgba(255, 255, 255, 0.38);
+    border-radius: 5rem;
+}
+.box:hover h4
+{
+    transform: scale(1.3);
+}
+.box:hover
+{
+    flex-basis: 28;
+    height:30rem;
+}
+.box:hover h4,.box:hover p
+{
+    opacity: 1;
+}
+.box:hover img
+{
+    position: absolute;
+    height: 40%;
+    top:0px;
+    left: 7rem;
+}
+.box h4,p
+{
+    text-align: center;
+    padding: 1rem;
+    opacity: 0;
+    transition: 1.2s ease-in 0s;
+}
+#T1 .box:hover
+{
+    background-color: #c88a8ec8;
+    box-shadow: 5px 5px 25px #C80815;
+}
+input[id="Home"]:checked ~ #HOME
+{
+    display: flex;
+}
+#HOME h1
+{
+    font-size: 4rem;
+    color: #0b3e8b;
+    text-shadow: 4px 4px 20px rgb(123, 123, 40);
+    margin-bottom:2rem;
+}
+#HOME h3
+{
+    color: #000000;
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.396);
+    border-radius: 2rem;
+}
+input[id="FireType"]:checked ~ #T1
+{
+    display: flex;
+}
+input[id="WaterType"]:checked ~ #T2
+{
+    display: flex;
+}
+input[id="GrassType"]:checked ~ #T3
+{
+    display: flex;
+}
+input[id="ElectricType"]:checked ~ #T4
+{
+    display: flex;
+}
+input[id="PsychicType"]:checked ~ #T5
+{
+    display: flex;
+}
+#T2 .box:hover
+{
+    background-color: rgba(60, 60, 158, 0.44);
+    box-shadow: 4px 4px 20px blue;;
+}
+#T3 .box:hover
+{
+    background-color: 	#7bba4177;
+    box-shadow: 4px 4px 20px #98b860;
+}
+#T4 .box:hover
+{
+    background-color: #f8f8183d;
+    box-shadow: 4px 4px 20px #f4dc36;
+}
+#T5 .box:hover
+{
+    background-color: #e0b0f876;
+    box-shadow: 4px 4px 20px #8c55b0;
+}
+#About
+{
+    display: flex;
+    flex-direction:column;
+    display: none;
+    align-items: center;
+}
+#About #myself
+{
+    display: flex;
+    width: 90%;
+    color: #0b187c;
+    background-color: rgba(227, 227, 22, 0.534);
+    border-radius: 2rem;
+    padding: 2rem;
+    font-size: 1.3rem;
+}
+#About #pic
+{
+    display: flex;
+    height: 20%;
+    width: 20%;
+    border: 4px double #ffde00;
+    border-radius: 2rem;
+    overflow: hidden;
+}
+#pic img
+{
+    height: 100%;
+    width: 100%;
+}
+#up
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#S
+{
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.37);
+    border-radius: 2rem;
+}
+#S i
+{
+    font-size: 3rem;
+    padding: 1rem 4rem;
+    color: #3b4cca;
+    transition: 0.5s linear 0s;
+}
+.BALL
+{
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    animation: pokeball 1.5s ease 0s infinite alternate;
+}
+.BALL img
+{
+    width: 32%;
+    height: 45%;
+}
+input[id="About_Developer"]:checked ~ #About
+{
+    display: flex;
+}
+
+.container
+{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 5rem;
+    align-items: center;
+    padding-top:3.2rem;
+    display: none;
+}
+.box
+{
+    background-color: white;
+    flex-basis: 25rem;
+    height: 20rem;
+    border-radius: 20px;
+    box-shadow: 3px 3px 8px black;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    transition: 1s ease 0.3s;
+    justify-content: flex-end;
+}
+.box img
+{
+    position: absolute;
+    height: 100%;
+    top:0px;
+    left: 2.5rem;
+    transition: 1s ease 0.3s;
+}
+.box p
+{
+    background-color: rgba(255, 255, 255, 0.38);
+    border-radius: 5rem;
+}
+.box:hover h4
+{
+    transform: scale(1.3);
+}
+.box:hover
+{
+    flex-basis: 28;
+    height:30rem;
+}
+.box:hover h4,.box:hover p
+{
+    opacity: 1;
+}
+.box:hover img
+{
+    position: absolute;
+    height: 40%;
+    top:0px;
+    left: 7rem;
+}
+.box h4,p
+{
+    text-align: center;
+    padding: 1rem;
+    opacity: 0;
+    transition: 1.2s ease-in 0s;
+}
+#T1 .box:hover
+{
+    background-color: #c88a8ec8;
+    box-shadow: 5px 5px 25px #C80815;
+}
+input[id="Home"]:checked ~ #HOME
+{
+    display: flex;
+}
+#HOME h1
+{
+    font-size: 4rem;
+    color: #0b3e8b;
+    text-shadow: 4px 4px 20px rgb(123, 123, 40);
+    margin-bottom:2rem;
+}
+#HOME h3
+{
+    color: #000000;
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.396);
+    border-radius: 2rem;
+}
+input[id="FireType"]:checked ~ #T1
+{
+    display: flex;
+}
+input[id="WaterType"]:checked ~ #T2
+{
+    display: flex;
+}
+input[id="GrassType"]:checked ~ #T3
+{
+    display: flex;
+}
+input[id="ElectricType"]:checked ~ #T4
+{
+    display: flex;
+}
+input[id="PsychicType"]:checked ~ #T5
+{
+    display: flex;
+}
+#T2 .box:hover
+{
+    background-color: rgba(60, 60, 158, 0.44);
+    box-shadow: 4px 4px 20px blue;;
+}
+#T3 .box:hover
+{
+    background-color: 	#7bba4177;
+    box-shadow: 4px 4px 20px #98b860;
+}
+#T4 .box:hover
+{
+    background-color: #f8f8183d;
+    box-shadow: 4px 4px 20px #f4dc36;
+}
+#T5 .box:hover
+{
+    background-color: #e0b0f876;
+    box-shadow: 4px 4px 20px #8c55b0;
+}
+input[id="About_Develop"]:checked ~ #About
+{
+    display: flex;
+}
+@keyframes pokeball 
+{
+    from{transform: scale(1.0) (0deg);}
+    to{transform: scale(1.5) rotate(360deg);}
+}
+#S i:hover
+{
+    color:#ff0000;
+    transform: translate(-0.5rem) scale(1.3);
+    text-shadow: 0px 0px 2px black;
+}
+@media (max-width:850px) 
+{
+    .BALL
+    {
+        display: none;
+    }
+}
